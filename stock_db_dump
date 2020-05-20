@@ -29,14 +29,14 @@ CREATE TABLE public.company (
     filings character varying(10),
     reporting_currency character varying(10) NOT NULL,
     fiscal_year_ended date NOT NULL,
-    cash_and_equivalents numeric NOT NULL,
-    short_term_investments numeric NOT NULL,
-    current_debt numeric NOT NULL,
-    revenue numeric NOT NULL,
-    cost_of_revenue numeric NOT NULL,
-    revenue_1_fy_ago numeric NOT NULL,
-    operating_cash_flow numeric NOT NULL,
-    capital_expenditure numeric NOT NULL
+    cash_and_equivalents numeric(20,2) NOT NULL,
+    short_term_investments numeric(20,2) NOT NULL,
+    current_debt numeric(20,2) NOT NULL,
+    revenue numeric(20,2) NOT NULL,
+    cost_of_revenue numeric(20,2) NOT NULL,
+    revenue_1_fy_ago numeric(20,2) NOT NULL,
+    operating_cash_flow numeric(20,2) NOT NULL,
+    capital_expenditure numeric(20,2) NOT NULL
 );
 
 
