@@ -3,3 +3,5 @@ In this project, I use Python to automate the getting of financial data by extra
 To view the project, click <a href="https://github.com/steffen-zou/Extract-financial-data-from-XBRL/blob/master/Extract_financial_data_from_XBRL.ipynb">Extract_financial_data_from_XBRL.ipynb</a>.
 
 The `data_files` folder contains the XBRL instance documents that are used in this project.
+
+The `stock_db_dump` file is a database backup that contains a table that this project insert/update records to.
