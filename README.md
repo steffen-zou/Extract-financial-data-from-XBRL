@@ -4,4 +4,4 @@ To view the project, click <a href="https://github.com/steffen-zou/Extract-finan
 
 The `data_files` folder contains the XBRL instance documents that are used in this project.
 
-The `stock_db_dump` file is a database backup that contains a table that this project insert/update records to.
+The `stock_db_dump` file is a PostgreSQL database backup that contains a table that this project insert/update records to.
