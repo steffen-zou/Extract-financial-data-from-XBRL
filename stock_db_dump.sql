@@ -51,8 +51,8 @@ CREATE TABLE public.company (
     revenue_1_fy_ago numeric(20,2) NOT NULL,
     operating_cash_flow numeric(20,2) NOT NULL,
     capital_expenditure numeric(20,2) NOT NULL,
-    central_index_key character varying(20),
-    company_name character varying(100)
+    central_index_key character varying(20) NOT NULL,
+    company_name character varying(100) NOT NULL
 );
 
 
@@ -114,7 +114,7 @@ V	10-K	USD	2019-09-30	7838000000.00	4236000000.00	0.00	22977000000.00	4165000000
 --
 
 ALTER TABLE ONLY public.company
-    ADD CONSTRAINT company_pkey PRIMARY KEY (ticker);
+    ADD CONSTRAINT company_pkey PRIMARY KEY (central_index_key);
 
 
 --
